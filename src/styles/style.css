@@ -1,0 +1,149 @@
+.login-h2, .register-h2 {
+    text-align: left;
+}
+button { 
+    width: 100%;
+}
+a.btn {
+    width: 100%;
+}
+
+.btn-primary {
+    background-color: #0E68FC;
+}
+
+.form-control {
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+}
+
+form{
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin:0 auto;
+
+}
+
+.form-control:focus {
+    outline:0px !important;
+    -webkit-appearance:none;
+    box-shadow: none !important;
+}
+
+.primary{
+    color: #0E68FC;
+}
+
+.line-text {
+    width: 100%; 
+    text-align: center; 
+    border-bottom: 1px solid rgba(var(--bs-secondary-rgb),var(--bs-text-opacity))!important;; 
+    line-height: 0.1em;
+    margin: 10px 0 20px; 
+ } 
+ 
+ .line-text span { 
+     background:#fff; 
+     padding:0 10px; 
+ }
+
+ .container .balance {
+    background-color: #0E68FC;
+    width: 75%;
+    border-radius: 15px;
+    display: inline-block!important;
+    height: 100%!important;
+    color: white;
+ }
+
+ .transaction-title-container {
+    display: inline-block;
+ }
+
+ h3.balance-h3 {
+    font-size: 16px;
+    text-align: left; 
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+ h3.balance-money {
+    margin-left: 1rem;
+    text-align: left; 
+    margin-bottom: 1rem;
+ }
+
+.transaction-list {
+    flex-direction: row!important;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    row-gap: 1rem;
+}
+ .transaction-content{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    column-gap: 3rem;
+    filter: drop-shadow(0px 2px 0px rgba(0, 0, 0, 0.15));
+    background-color: white;
+    border-radius: 10px;
+    height: 4rem;
+}
+
+.transactions-h2 {
+    color: rgba(175, 175, 175, 1);
+    font-size: 16px;
+    display: inline-block; 
+	text-align: left; 
+}
+.negative {
+    color: red;
+}
+
+.positive {
+    color: rgba(93, 173, 55, 0.65);
+}
+
+
+.navbar {
+    background-color: white!important;
+    color:rgba(0, 0, 0, 0.15)!important;
+    border-bottom: 1rem;
+}
+
+.navbar-toggler {
+    outline:0px !important;
+    -webkit-appearance:none;
+    box-shadow: none !important;
+}
+
+.navbar-nav {
+    margin-left: 10rem;
+}
+
+.btn.add {
+    width: 30%;
+    background-color: white;
+    border-radius: 10px;
+}
+.add-container {
+    display: inline-block;
+}
+
+.row.add-button {
+    flex-direction: row!important;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    row-gap: 1rem;
+}
+@media (max-width: 1199.98px) { 
+    .navbar-nav{
+        align-items: center;
+        margin-left: 0;
+    }
+}
